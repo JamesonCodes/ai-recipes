@@ -1,0 +1,75 @@
+---
+alwaysApply: true
+---
+
+# Purpose
+
+This repository documents repeatable, outcome-driven AI workflows. All additions must be written as executable recipes, not theory, commentary, or prompt experiments.
+
+# General principles
+
+- Optimize for clarity and repeatability
+- Assume a non-technical reader
+- Prefer concrete steps over explanation
+- Avoid hype, opinions, or model comparisons
+- Keep language concise and neutral
+
+# Folder structure
+
+- All content lives under a top-level domain folder: brand, dev, marketing, ops, research, or meta
+- Each recipe lives in its own folder using kebab-case naming
+- Do not create new top-level folders without explicit instruction
+
+# Required files per recipe
+
+Every recipe folder must include:
+
+## README.md
+
+- What this recipe produces
+- When to use it
+- Expected outcome
+
+## prompts.md
+
+- Copy-paste-ready prompts only
+- No commentary or analysis
+
+## workflow.md
+
+- Step-by-step execution order
+- Clear tool transitions
+
+# Optional files
+
+- examples.md for sample outputs
+- notes.md for edge cases or learnings
+
+# Writing rules
+
+- Short paragraphs or bullet points
+- No emojis
+- No em dashes
+- No code snippets unless explicitly requested
+- Do not repeat content across files
+
+# Naming rules
+
+- Recipe folders use descriptive kebab-case names
+- File names are fixed and must not be altered
+- Do not include tool names in top-level folders
+
+# Scope control
+
+- Do not introduce abstractions, frameworks, or theory
+- Do not refactor existing recipes unless instructed
+- Do not merge multiple outcomes into a single recipe
+
+# Default behavior
+
+When adding a new recipe:
+
+- Place it in the correct domain folder
+- Create required files
+- Keep content minimal and executable
+- Follow existing patterns exactly
