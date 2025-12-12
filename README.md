@@ -29,3 +29,7 @@ Inside each category, recipes live in their own folders using kebab-case naming 
 ## Reuse and adaptation
 
 These recipes are meant to be copied, modified, and adapted to your needs. Tools and models change frequently—update workflows as you discover improvements.
+
+## License
+
+Licensed under the MIT License.
